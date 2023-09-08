@@ -1,7 +1,8 @@
-package src.ProjetoContador;
+package ProjetoContador;
 
 
-public class NewProjects {
+
+public class analisandoCandidatos {
     public static void main(String[] args) {
         System.out.println("Processo seletivo");
 
