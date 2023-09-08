@@ -27,6 +27,17 @@ public class selecaodeCandidatos {
             candidatoAtual++;
         }
     }
+    static void analisarCandidato(double salarioPretendido) {
+        double salarioBase = 2000.0;
+        if (salarioBase > salarioPretendido) {
+            System.out.println("LIGAR PARA O CANDIDATO");
+        } else if (salarioBase == salarioPretendido)
+            System.out.println("LIGAR PARA O CANDITADO, COM CONTRA PROPOSTA");
+
+        else
+            System.out.println("AGUARDANDO RESULTADO DOS DEMAIS CANDIDATOS");
+
+    }
 
     static double valorPretendido() {
         return ThreadLocalRandom.current().nextDouble(1800, 2200);
